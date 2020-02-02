@@ -67,6 +67,12 @@ public class Book {
         this.borrowedTo = borrowedTo;
     }
 
+    public String statusSet(){
+        String s = "";
+        if(getStatus().equals(BookStatus.Available))
+            return "Disponivel";
+        return "Indisponivel";
+    }
 
     @Override
     public String toString() {
@@ -75,7 +81,7 @@ public class Book {
             ", \nTitulo='" + getBookName() + "'" +
             ", \nAutor='" + getWriter() + "'" +
             ", \nAno='" + getYear() + "'" +
-            ", \nStatus='" + getStatus() + "'" +
+            ", \nStatus='" + statusSet() + "'" +
             ", \nEmprestado para='" + getBorrowedTo() + "'\n" +
             "}";
     }
