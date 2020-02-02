@@ -194,6 +194,7 @@ public class Library {
                     sair = true;
                 break;
                 case 1:
+                    printAvailableBooks();
                     System.out.println("Digite o numero do livro que deseja retirar");
                     int n = in.nextInt();
                     if(rentBook(n)){
@@ -202,8 +203,7 @@ public class Library {
                         System.out.println("Erro na retirada do livro, por favor selecione um livro que esteja disponivel\n");
                     }
                 break;
-                case 2:
-                    printAvailableBooks();
+                case 2:                    
                     System.out.println("Digite o numero do livro que deseja devolver");
                     int j = in.nextInt();
                     if(returnBook(j)){
