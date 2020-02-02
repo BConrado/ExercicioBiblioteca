@@ -113,7 +113,12 @@ public class Library {
             out.println("Titulo : "+book.getBookName());
             out.println("Autor : "+book.getWriter());
             out.println("Ano : "+book.getYear());
-            out.println("Status : "+book.getStatus());
+            
+            if(book.getStatus().equals(BookStatus.Available)){
+                out.println("Status : Disponivel");
+            }else{
+                out.println("Status : Indisponivel");
+            }
             out.println("Emprestado para : "+book.getBorrowedTo());
             out.println("");
         }
