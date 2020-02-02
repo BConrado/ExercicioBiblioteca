@@ -1,0 +1,29 @@
+4
+Numero : 1
+Titulo : Como fazer sentido e bater o martelo
+Autor : Alexandro Aolchique
+Ano : 2017
+Status : Unavailable
+Emprestado para : 
+
+Numero : 2
+Titulo : Codigo Limpo
+Autor : Tio Bob
+Ano : 2001
+Status : Unavailable
+Emprestado para : 
+
+Numero : 3
+Titulo : Basquete 101
+Autor : Hortencia Marcari
+Ano : 2010
+Status : Unavailable
+Emprestado para : 
+
+Numero : 4
+Titulo : CONRADO
+Autor : CONRADO
+Ano : 1999
+Status : Available
+Emprestado para : Ninguem
+
