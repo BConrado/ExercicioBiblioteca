@@ -1,28 +1,42 @@
-4
+6
 Numero : 1
 Titulo : Como fazer sentido e bater o martelo
 Autor : Alexandro Aolchique
 Ano : 2017
 Status : Disponivel
-Emprestado para : 
+Emprestado para : Ninguem
 
 Numero : 2
 Titulo : Codigo Limpo
 Autor : Tio Bob
 Ano : 2001
 Status : Disponivel
-Emprestado para : 
+Emprestado para : Ninguem
 
 Numero : 3
 Titulo : Basquete 101
 Autor : Hortencia Marcari
 Ano : 2010
 Status : Disponivel
-Emprestado para : 
+Emprestado para : Ninguem
 
 Numero : 4
 Titulo : CONRADO
 Autor : CONRADO
+Ano : 1999
+Status : Disponivel
+Emprestado para : Ninguem
+
+Numero : 5
+Titulo : 3
+Autor : 3
+Ano : 3
+Status : Disponivel
+Emprestado para : Ninguem
+
+Numero : 6
+Titulo : Mad
+Autor : Gabriel
 Ano : 1999
 Status : Disponivel
 Emprestado para : Ninguem

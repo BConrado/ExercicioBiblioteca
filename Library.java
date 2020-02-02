@@ -9,7 +9,7 @@ public class Library {
     private static ArrayList<Book> list;
     //it`s called when to program starts to get all the books from the "Database".
     public static ArrayList<Book> read() throws FileNotFoundException{
-        ArrayList list = new ArrayList<Book>();
+        ArrayList<Book> a = new ArrayList<Book>();
         File file = new File("database.txt");
         Scanner in = new Scanner(file);
         int bookqnt = Integer.parseInt(in.nextLine());
@@ -63,10 +63,10 @@ public class Library {
             Book b = new Book(number,bookName,writer,year,status,borrowedTo); 
             
             in.nextLine(); // empty line
-            list.add(b); 
+            a.add(b); 
         }
         
-        return list;
+        return a;
     }
 
     //this method print all the books in the library
@@ -119,7 +119,7 @@ public class Library {
             }else{
                 out.println("Status : Indisponivel");
             }
-            out.println("Emprestado para : "+book.getBorrowedTo());
+            out.println("Emprestado para : Ninguem");
             out.println("");
         }
         
@@ -156,8 +156,7 @@ public class Library {
             if(b.getNumber() == i && b.getStatus().equals(BookStatus.Available)){
                 b.setStatus(BookStatus.Unavailable);
                 return true;
-            }
-            return false; 
+            }          
         }
         return false;
     }
@@ -168,8 +167,7 @@ public class Library {
             if(b.getNumber() == i && b.getStatus().equals(BookStatus.Unavailable)){
                 b.setStatus(BookStatus.Available);
                 return true;
-            }
-            return false; 
+            }        
         }
         return false;
     }
